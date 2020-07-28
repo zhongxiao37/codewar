@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Debug Ruby File",
+            "type": "Ruby",
+            "request": "launch",
+            "env": {
+                "PATH": "/Users/phoenixzhong/.rvm/gems/ruby-2.5.7/bin:/Users/phoenixzhong/.rvm/gems/ruby-2.5.7@global/bin:/Users/phoenixzhong/.rvm/rubies/ruby-2.5.7/bin:/Users/phoenixzhong/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+                "GEM_HOME": "/Users/phoenixzhong/.rvm/gems/ruby-2.5.7",
+                "GEM_PATH": "/Users/phoenixzhong/.rvm/gems/ruby-2.5.7:/Users/phoenixzhong/.rvm/gems/ruby-2.5.7@global",
+                "RUBY_VERSION": "2.5.7"
+            },
+            "program": "${file}"
+        }
+    ]
+}
